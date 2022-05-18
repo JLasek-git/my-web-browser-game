@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type Props = {};
 const UserProfileInfo = (props: Props) => {
   return (
@@ -7,12 +9,12 @@ const UserProfileInfo = (props: Props) => {
         1
       </div>
       <div className="flex justify-start items-center gap-2">
-        {/* <img
-          src="../../../../assets/images/Coin_of_Plentiful.png"
+        <Image
+          src={require("../../../assets/images/Coin_of_Plentiful.png")}
+          width="30"
+          height="30"
           alt="Gold"
-          className="w-8"
-        /> */}
-        siema
+        />
         <div>230</div>
       </div>
     </div>
