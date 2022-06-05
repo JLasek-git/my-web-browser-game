@@ -4,7 +4,7 @@ import { ItemModel } from "./ItemModel";
 import { IPlayerModel } from "./../interfaces/IPlayerModel";
 export class PlayerModel implements IPlayerModel {
   name = "";
-  level = 0;
+  level = 1;
   experience = 0;
   inventory = [];
   equipment = {

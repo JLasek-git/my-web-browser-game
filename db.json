@@ -1,0 +1,97 @@
+{
+  "playerData": {
+    "name": "Player1",
+    "level": 1,
+    "experience": 0,
+    "inventory": [],
+    "equipment": {
+      "weapon": {
+        "name": "Sword",
+        "damage": {
+          "min": 5,
+          "max": 15
+        },
+        "stats": {
+          "strength": 0,
+          "dexterity": 0,
+          "intelligence": 0,
+          "luck": 0,
+          "endurance": 0,
+          "magicResistance": 0
+        }
+      },
+      "gloves": {
+        "name": "Gloves",
+        "armor": 0,
+        "stats": {
+          "strength": 0,
+          "dexterity": 0,
+          "intelligence": 0,
+          "luck": 0,
+          "endurance": 0,
+          "magicResistance": 0
+        }
+      },
+      "boots": {
+        "name": "Boots",
+        "armor": 0,
+        "stats": {
+          "strength": 0,
+          "dexterity": 0,
+          "intelligence": 0,
+          "luck": 0,
+          "endurance": 0,
+          "magicResistance": 0
+        }
+      },
+      "helmet": {
+        "name": "Helmet",
+        "armor": 0,
+        "stats": {
+          "strength": 0,
+          "dexterity": 0,
+          "intelligence": 0,
+          "luck": 0,
+          "endurance": 0,
+          "magicResistance": 0
+        }
+      },
+      "earrings": {
+        "name": "Earrings",
+        "armor": 0,
+        "stats": {
+          "strength": 0,
+          "dexterity": 0,
+          "intelligence": 0,
+          "luck": 0,
+          "endurance": 0,
+          "magicResistance": 0
+        }
+      },
+      "Chestplate": {
+        "name": "Chestplate",
+        "armor": 0,
+        "stats": {
+          "strength": 0,
+          "dexterity": 0,
+          "intelligence": 0,
+          "luck": 0,
+          "endurance": 0,
+          "magicResistance": 0
+        }
+      },
+      "ring": {
+        "name": "Ring",
+        "armor": 0,
+        "stats": {
+          "strength": 0,
+          "dexterity": 0,
+          "intelligence": 0,
+          "luck": 0,
+          "endurance": 0,
+          "magicResistance": 0
+        }
+      }
+    }
+  }
+}

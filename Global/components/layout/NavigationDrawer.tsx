@@ -10,7 +10,7 @@ const NavigationDrawer = (props: Props) => {
         <UserProfileInfo />
 
         {availableAppRoutes.map((route) => {
-          return <NavigationItem route={route} />;
+          return <NavigationItem route={route} key={route.pathname} />;
         })}
       </div>
     </nav>

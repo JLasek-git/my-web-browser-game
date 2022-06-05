@@ -7,6 +7,7 @@ export class ItemModel implements IItem {
     min: 0,
     max: 0,
   };
+  armor = 0;
   stats = new StatsModel();
   value = 0;
 }

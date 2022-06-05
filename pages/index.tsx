@@ -1,9 +1,26 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { PlayerModel } from "../App/models/PlayerModel";
+import { getPlayer } from "../App/services/player.service";
 import HeroEqupiment from "../App/views/Profile/components/HeroEquipment";
 import HeroInventory from "../App/views/Profile/components/HeroInventory";
 
-const Home: NextPage = () => {
+type Props = {
+  player: PlayerModel;
+};
+
+export const getStaticProps = async () => {
+  const response = await getPlayer();
+  console.log(response);
+
+  return {
+    props: {
+      player: response,
+    },
+  };
+};
+
+const Home: NextPage<Props> = (props: Props) => {
   return (
     <>
       <Head>
