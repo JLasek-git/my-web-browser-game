@@ -16,15 +16,15 @@ const NavigationItem = (props: Props) => {
         "w-full h-fit flex flex-col justify-start hover:bg-zinc-900 cursor-pointer"
       }
     >
-      <Link href={props.route.path}>
+      <Link href={props.route.route}>
         <span
           className={
-            router.pathname === props.route.path
+            router.pathname === props.route.route
               ? "p-4 bg-zinc-900 font-bold"
               : "p-4"
           }
         >
-          {props.route.name}
+          {props.route.pathname}
         </span>
       </Link>
     </div>

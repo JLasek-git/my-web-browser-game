@@ -1,34 +1,35 @@
 import { AppRoutesEnum } from "../enums/AppRoutesEnum";
 import { AppRoutesNamesEnum } from "../enums/AppRoutesNamesEnum";
+import { NextRouter } from "next/router";
 
 export type Route = {
-  name: AppRoutesNamesEnum;
-  path: AppRoutesEnum;
+  pathname: AppRoutesNamesEnum;
+  route: AppRoutesEnum;
 };
 
 export const availableAppRoutes: Route[] = [
   {
-    name: AppRoutesNamesEnum.Profile,
-    path: AppRoutesEnum.Profile,
+    pathname: AppRoutesNamesEnum.Profile,
+    route: AppRoutesEnum.Profile,
   },
   {
-    name: AppRoutesNamesEnum.Tavern,
-    path: AppRoutesEnum.Tavern,
+    pathname: AppRoutesNamesEnum.Tavern,
+    route: AppRoutesEnum.Tavern,
   },
   {
-    name: AppRoutesNamesEnum.Armory,
-    path: AppRoutesEnum.Armory,
+    pathname: AppRoutesNamesEnum.Armory,
+    route: AppRoutesEnum.Armory,
   },
   {
-    name: AppRoutesNamesEnum.MagicShop,
-    path: AppRoutesEnum.MagicShop,
+    pathname: AppRoutesNamesEnum.MagicShop,
+    route: AppRoutesEnum.MagicShop,
   },
   {
-    name: AppRoutesNamesEnum.Stable,
-    path: AppRoutesEnum.Stable,
+    pathname: AppRoutesNamesEnum.Stable,
+    route: AppRoutesEnum.Stable,
   },
   {
-    name: AppRoutesNamesEnum.Dungeons,
-    path: AppRoutesEnum.Dungeons,
+    pathname: AppRoutesNamesEnum.Dungeons,
+    route: AppRoutesEnum.Dungeons,
   },
 ];
