@@ -1,5 +1,5 @@
 export enum AppRoutesNamesEnum {
-  Profile = "Profile",
+  Profile = "Hero",
   Tavern = "Tavern",
   Armory = "Armory",
   MagicShop = "Magic Shop",
